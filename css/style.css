@@ -3,7 +3,14 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: #F4EBE4;
 }
 
@@ -24,4 +31,10 @@ body {
 .top-nav img.logo {
   width: 35px;
   height: 35px;
+}
+
+.content {
+  flex: 1;
+  padding: 16px;
+  font-family: 'Space Grotesk', sans-serif;
 }
