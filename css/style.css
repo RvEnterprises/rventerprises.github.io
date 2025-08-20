@@ -38,3 +38,14 @@ body {
   padding: 16px;
   font-family: 'Space Grotesk', sans-serif;
 }
+
+footer {
+  padding: 16px;
+  background-color: #485E92;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #F4EBE4;
+  font-family: 'Space Grotesk', sans-serif;
+}
